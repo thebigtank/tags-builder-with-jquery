@@ -1,0 +1,80 @@
+body {
+  background-color: #eb5569;
+}
+
+img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 140px;
+}
+
+.wrapper {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  top: 20vh;
+  padding: 60px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.wrapper h1 {
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: #5c6bc0;
+}
+
+.wrapper h1 span {
+  color: #e57373;
+}
+
+.wrapper .tags-container {
+  margin-top: 60px;
+  position: relative;
+}
+
+.wrapper .tags-container input {
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: 2px solid rgba(245, 138, 151, 0.2);
+  height: 45px;
+  border-radius: 4px;
+  outline-color: #c5c7d6;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.wrapper .tags-container input::placeholder {
+  color: #c5c7d6;
+}
+
+.wrapper .tags-container span {
+  background-color: rgba(245, 138, 151, 0.3);
+  border: 2px solid rgba(245, 138, 151, 0.2);
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0 10px 15px 0;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.wrapper .tags-container span:hover {
+  background-color: #eb5569;
+  color: #fff;
+  border-color: #eb5569;
+}
+
+.wrapper .tags-container  span i {
+  font-size: 20px;
+  margin-left: 10px;
+}
